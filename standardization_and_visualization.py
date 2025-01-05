@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load your dataset
 # Replace 'file_path' with the path to your dataset
-file_path = 'crop_raw_data'
+file_path = 'crop_raw_data.csv'
 crop_data = pd.read_csv(file_path)
 
 # Log transformation for Potassium (K) and Rainfall
