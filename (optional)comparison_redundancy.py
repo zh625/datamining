@@ -122,7 +122,7 @@ rfe_results = redundancy_test(rfe_data, "RFE Features")
 
 # Combine and save results
 all_results = pd.DataFrame(boruta_results + rfe_results)
-all_results.to_csv("redundancy_test_results.csv", index=False)
+all_results.to_csv("additional/redundancy_test_results.csv", index=False)
 
 # Display results
 print("\nRedundancy Testing Results:")
