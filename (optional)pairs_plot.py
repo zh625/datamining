@@ -32,4 +32,5 @@ pairplot = sns.pairplot(
 
 # Adjust layout and display the plot
 pairplot.fig.suptitle("Pairwise Relationships of Selected Features", y=1.02, fontsize=16)
+plt.savefig('plot/pairs_plot_graph.png')
 plt.show()
