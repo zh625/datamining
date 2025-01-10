@@ -1,0 +1,46 @@
+Feature Set,Removed Feature,Model,Test Accuracy (%)
+Boruta Features,None,Random Forest,85.37
+Boruta Features,None,KNN,85.31
+Boruta Features,None,SVM,78.23
+Boruta Features,None,Neural Network,74.59
+Boruta Features,None,XGBoost,78.29
+Boruta Features,QV2M-Au,Random Forest,85.31
+Boruta Features,QV2M-Au,KNN,85.01
+Boruta Features,QV2M-Au,SVM,78.03
+Boruta Features,QV2M-Au,Neural Network,74.49
+Boruta Features,QV2M-Au,XGBoost,78.39
+Boruta Features,QV2M-W,Random Forest,85.61
+Boruta Features,QV2M-W,KNN,84.94
+Boruta Features,QV2M-W,SVM,78.26
+Boruta Features,QV2M-W,Neural Network,75.31
+Boruta Features,QV2M-W,XGBoost,78.33
+Boruta Features,PRECTOTCORR-W,Random Forest,85.08
+Boruta Features,PRECTOTCORR-W,KNN,85.04
+Boruta Features,PRECTOTCORR-W,SVM,77.96
+Boruta Features,PRECTOTCORR-W,Neural Network,76.01
+Boruta Features,PRECTOTCORR-W,XGBoost,78.03
+Boruta Features,WD10M,Random Forest,85.41
+Boruta Features,WD10M,KNN,85.27
+Boruta Features,WD10M,SVM,78.39
+Boruta Features,WD10M,Neural Network,75.25
+Boruta Features,WD10M,XGBoost,78.42
+RFE Features,None,Random Forest,85.47
+RFE Features,None,KNN,85.27
+RFE Features,None,SVM,78.39
+RFE Features,None,Neural Network,73.59
+RFE Features,None,XGBoost,78.49
+RFE Features,QV2M-Au,Random Forest,85.64
+RFE Features,QV2M-Au,KNN,84.88
+RFE Features,QV2M-Au,SVM,77.43
+RFE Features,QV2M-Au,Neural Network,72.87
+RFE Features,QV2M-Au,XGBoost,77.6
+RFE Features,QV2M-W,Random Forest,85.44
+RFE Features,QV2M-W,KNN,84.75
+RFE Features,QV2M-W,SVM,78.36
+RFE Features,QV2M-W,Neural Network,73.49
+RFE Features,QV2M-W,XGBoost,77.8
+RFE Features,PRECTOTCORR-W,Random Forest,85.14
+RFE Features,PRECTOTCORR-W,KNN,84.75
+RFE Features,PRECTOTCORR-W,SVM,77.99
+RFE Features,PRECTOTCORR-W,Neural Network,72.83
+RFE Features,PRECTOTCORR-W,XGBoost,78.06
