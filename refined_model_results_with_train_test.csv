@@ -1,0 +1,6 @@
+Model,Search Type,Best Parameters,Train Accuracy,Test Accuracy,Train Precision,Train Recall,Train F1-Score,Test Precision,Test Recall,Test F1-Score
+Random Forest,Refined GridSearchCV,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 160}",1.0,0.8563864990072799,1.0,1.0,1.0,0.8505691626871629,0.8563864990072799,0.8514275432334271
+KNN,Refined GridSearchCV,"{'n_neighbors': 3, 'p': 1, 'weights': 'distance'}",1.0,0.8487756452680344,1.0,1.0,1.0,0.8374114468747079,0.8487756452680344,0.8387270739355439
+SVM,Refined GridSearchCV,"{'C': 15, 'gamma': 0.5, 'kernel': 'rbf'}",0.984775773622373,0.8692918596955659,0.984933920128559,0.984775773622373,0.9847239723320994,0.8629013550340331,0.8692918596955659,0.8643595880997422
+Neural Network,Refined GridSearchCV,"{'activation': 'relu', 'alpha': 0.0001, 'batch_size': 32, 'early_stopping': True, 'hidden_layer_sizes': (100, 100), 'learning_rate': 'adaptive', 'learning_rate_init': 0.02, 'max_iter': 1000, 'solver': 'sgd'}",0.9683104418335264,0.8305757776307081,0.9680330188370501,0.9683104418335264,0.9680912093634803,0.8249424431393134,0.8305757776307081,0.8269855071977256
+XGBoost,Refined GridSearchCV,"{'colsample_bytree': 0.9, 'learning_rate': 0.12, 'max_depth': 12, 'n_estimators': 140, 'subsample': 0.85}",1.0,0.8448047650562541,1.0,1.0,1.0,0.8406803485166842,0.8448047650562541,0.8421765283039901
