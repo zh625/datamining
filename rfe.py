@@ -52,6 +52,7 @@ plt.title('RFE: Accuracy vs Number of Features')
 plt.xlabel('Number of Features')
 plt.ylabel('Accuracy')
 plt.grid()
+plt.savefig('plot/rfe_accuracy_vs_feature.png')
 plt.show()
 
 # Select the optimal feature subset using RFE
