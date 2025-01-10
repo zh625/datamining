@@ -26,6 +26,6 @@ for i, feature in enumerate(features_to_scale):
 
 # Adjust layout for better spacing
 plt.tight_layout()
-
+plt.savefig('plot/linear_separability.png')
 # Show the plot
 plt.show()
