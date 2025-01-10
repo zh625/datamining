@@ -29,6 +29,6 @@ sns.heatmap(
 )
 plt.title("Correlation Heatmap of Selected Features", fontsize=16)
 plt.tight_layout()
-
+plt.savefig('plot/correlation_heatmap_graph.png')
 # Show the plot
 plt.show()
