@@ -25,7 +25,7 @@ summary_stats['Non Missing'] = data.notnull().sum().values
 summary_stats['Missing'] = data.isnull().sum().values
 
 # Save the summary statistics to a CSV file
-summary_stats.to_csv('summary_statistics.csv', index=False)
+summary_stats.to_csv('plot/summary_statistics.csv', index=False)
 
 print("The summary statistics have been saved as 'summary_statistics.csv' in your working directory.")
 
